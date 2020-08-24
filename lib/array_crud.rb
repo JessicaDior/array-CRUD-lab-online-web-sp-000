@@ -28,13 +28,15 @@ end
 
 def retrieve_element_from_index(array, index_number)
   array = ["drums", "bass", "guitar", "piano"]
-
+  array[index_number]
 end
 
 def retrieve_first_element_from_array(array)
   array = ["drums", "bass", "guitar", "piano"]
+  array.first
 end
 
 def retrieve_last_element_from_array(array)
   array = ["drums", "bass", "guitar", "piano"]
+  array.last
 end
